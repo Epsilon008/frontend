@@ -1,0 +1,50 @@
+.sidebar {
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+  width: 300px; /* Largeur souhaitée de la sidebar */
+  background-color: #212529; /* Couleur de fond noire */
+  padding: 20px;
+  box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+  border-right: 10px solid #007bff; /* Ligne bleue à droite de la sidebar */
+  }
+  
+  .sidebar h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Couleur du texte en blanc */
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligne les éléments en haut de la sidebar */
+  }
+  
+  .sidebar-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff; /* Couleur du texte en blanc */
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #007bff; /* Couleur de fond bleue au survol */
+  }
+  
+  .sidebar-menu a.selected {
+    background-color: #0056b3; /* Couleur de fond bleu foncé pour l'élément sélectionné */
+  }
+
+  

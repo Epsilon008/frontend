@@ -1,0 +1,23 @@
+body.error-404 {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .no-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .no-page-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .no-page-message {
+    font-size: 24px;
+  }
